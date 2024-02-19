@@ -12,6 +12,9 @@ export default function Home() {
         </Subtitle>
         
         <Divider className="my-10" />
+        <Card>
+          
+        </Card>
       </Card>
     </main>
   );
