@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="text-6xl">
       <Card>
-        <Text>Weather AI</Text>
+        <Text className="text-6xl font-bold text-center mb-10">Weather AI</Text>
         <Subtitle>
           Powered by OpenAI, Next.js 13.2, Tailwind CSS, Tremor 2.0 + More!
         </Subtitle>
