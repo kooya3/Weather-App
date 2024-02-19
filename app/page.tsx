@@ -11,7 +11,7 @@ export default function Home() {
           Powered by OpenAI, Next.js 13.2, Tailwind CSS, Tremor 2.0 + More!
         </Subtitle>
         
-        <Divider />
+        <Divider className="my-10" />
       </Card>
     </main>
   );
