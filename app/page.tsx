@@ -4,7 +4,7 @@ import { Card, Divider, Subtitle, Text } from "@tremor/react";
 
 export default function Home() {
   return (
-    <div className="text-6xl">
+    <div className="">
       <Card>
         <Text className="text-6xl font-bold text-center mb-10">Weather AI</Text>
         <Subtitle className="text-xl text-center">
