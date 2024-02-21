@@ -12,9 +12,12 @@ const options = Country.getAllCountries().map(country => ({
   label: country.name,
 }));
 
-function CityPicker = () => {
+function CityPicker() {
   return (
-    <div>CityPicker</div>
+    <div>
+      <Select
+       options={options} />
+    </div>
   )
 }
 
