@@ -1,7 +1,7 @@
 "use client";
 
 import { Country, City } from 'country-state-city';}
-import select from "react-select";
+import Select from "react-select";
 
 const options = Country.getAllCountries().map(country => ({
   value: {
@@ -13,10 +13,10 @@ const options = Country.getAllCountries().map(country => ({
 }));
 
 function CityPicker() {
+    const [selectedCountry, setSelectedCountry]
   return (
     <div>
-      <Select
-       options={options} />
+      <Select options={options} />
     </div>
   )
 }
