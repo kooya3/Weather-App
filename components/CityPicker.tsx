@@ -9,6 +9,9 @@ type option = {
     latitude: string;
     longitude: string;
     isoCode: string;
+  };
+  label: string;
+} | null;
 
 
 const options = Country.getAllCountries().map(country => ({
