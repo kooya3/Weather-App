@@ -18,6 +18,8 @@ type cityOption = {
     latitude: string;
     longitude: string;
     countryCode: string;
+    name: string;
+    stateCode: string;
 
 
 const options = Country.getAllCountries().map(country => ({
