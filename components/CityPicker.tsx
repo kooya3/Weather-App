@@ -20,6 +20,9 @@ type cityOption = {
     countryCode: string;
     name: string;
     stateCode: string;
+  };
+  label: string;
+} | null;
 
 
 const options = Country.getAllCountries().map(country => ({
