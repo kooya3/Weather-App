@@ -1,8 +1,13 @@
 "use client";
 
 import { Country, City } from 'country-state-city';import { useState } from 'react';
-}
 import Select from "react-select";
+
+
+type option = {
+  value: {
+    latitude: string;
+
 
 const options = Country.getAllCountries().map(country => ({
   value: {
