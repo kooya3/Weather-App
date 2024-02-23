@@ -13,6 +13,10 @@ type option = {
   label: string;
 } | null;
 
+type cityOption = {
+  value: {
+    latitude: string;
+
 
 const options = Country.getAllCountries().map(country => ({
   value: {
