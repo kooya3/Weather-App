@@ -14,7 +14,7 @@ const options = Country.getAllCountries().map(country => ({
 }));
 
 function CityPicker() {
-    const [selectedCountry, setSelectedCountry] = useState<option>(null)
+    const [selectedCountry, setSelectedCountry] = useState<option>(null);
   return (
     <div>
       <Select options={options} />
