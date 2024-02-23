@@ -7,6 +7,8 @@ import Select from "react-select";
 type option = {
   value: {
     latitude: string;
+    longitude: string;
+    isoCode: string;
 
 
 const options = Country.getAllCountries().map(country => ({
