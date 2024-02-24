@@ -41,6 +41,11 @@ function CityPicker() {
 
     const router = useRouter();
 
+    const handleSelectedCountry = (option: option) => {
+      setSelectedCountry(option);
+      setSelectedCity(null);
+    };
+
 
   return (
     <div>
