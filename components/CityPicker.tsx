@@ -47,16 +47,21 @@ function CityPicker() {
       setSelectedCity(null);
     };
 
-
   return (
+  <div className="space-y-4">
+    <div className="space-y-2">
+        <GlobeIcon className="h-5 w-5 text-white font-semibold" />
+        <label htmlFor="country">Country</label>
+      </div>
     <div>
       <Select 
       className="text-black font-medium"
       value={selectedCountry}
       onChange={handleSelectedCountry}
       options={options} />
-    </div>
-  )
+  </div>
+  </div>
+  );
 }
 
 export default CityPicker
