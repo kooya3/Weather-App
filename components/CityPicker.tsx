@@ -39,6 +39,9 @@ function CityPicker() {
     const [selectedCountry, setSelectedCountry] = useState<option>(null);
     const [selectedCity, setSelectedCity] = useState<cityOption>(null);
 
+    const router = useRouter();
+
+
   return (
     <div>
       <Select options={options} />
