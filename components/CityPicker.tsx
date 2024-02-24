@@ -44,7 +44,9 @@ function CityPicker() {
 
   return (
     <div>
-      <Select options={options} />
+      <Select 
+      value={selectedCountry}
+      options={options} />
     </div>
   )
 }
