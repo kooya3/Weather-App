@@ -46,6 +46,7 @@ function CityPicker() {
     <div>
       <Select 
       value={selectedCountry}
+      onChange={handleSelectedCountry}
       options={options} />
     </div>
   )
