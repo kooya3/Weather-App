@@ -50,6 +50,7 @@ function CityPicker() {
   return (
     <div>
       <Select 
+      className="text-black font-medium"
       value={selectedCountry}
       onChange={handleSelectedCountry}
       options={options} />
