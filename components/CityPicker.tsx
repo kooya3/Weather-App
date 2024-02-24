@@ -50,7 +50,8 @@ function CityPicker() {
   return (
   <div className="space-y-4">
     <div className="space-y-2">
-        <GlobeIcon className="h-5 w-5 text-white font-semibold" />
+    <div className="flex items-center space-x-2 text-white/80">
+        <GlobeIcon className="h-5 w-5 text-white font-semibold " />
         <label htmlFor="country">Country</label>
       </div>
     <div>
@@ -60,7 +61,22 @@ function CityPicker() {
       onChange={handleSelectedCountry}
       options={options} />
   </div>
+
+  <div className="space-y-2">
+    <div className="flex items-center space-x-2 text-white/80">
+        <GlobeIcon className="h-5 w-5 text-white font-semibold " />
+        <label htmlFor="country">City</label>
+      </div>
+    <div>
+      <Select 
+      className="text-black font-medium"
+      value={selectedCountry}
+      onChange={handleSelectedCountry}
+      options={options} />
+  </div>  
   </div>
+  </div>
+</div>
   );
 }
 
