@@ -47,7 +47,9 @@ function CityPicker() {
       setSelectedCity(null);
     };
 
-    const handleSelectedCity = (option: )
+    const handleSelectedCity = (option: cityOption) => {
+      
+    }
 
   return (
   <div className="space-y-4">
