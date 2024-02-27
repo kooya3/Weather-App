@@ -80,4 +80,4 @@ function CityPicker() {
   );
 }
 
-export default CityPicker
+export default CityPicker;
