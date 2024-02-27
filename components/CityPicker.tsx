@@ -70,7 +70,7 @@ function CityPicker() {
     <div>
       <Select 
       className="text-black font-medium"
-      value={selectedCountry}
+      value={selectedCity}
       onChange={handleSelectedCountry}
       options={options} />
   </div>  
