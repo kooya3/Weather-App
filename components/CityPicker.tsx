@@ -50,6 +50,8 @@ function CityPicker() {
     const handleSelectedCity = (option: cityOption) => {
       setSelectedCity(option);
       router.push(
+        
+      )
     
     }
 
