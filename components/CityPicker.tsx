@@ -54,18 +54,18 @@ function CityPicker() {
 
   return (
     <div className="space-y-4">
-    <div className="space-y-2">
-    <div className="flex items-center space-x-2 text-white/80">
-        <GlobeIcon className="h-5 w-5 text-white font-semibold " />
-        <label htmlFor="country">Country</label>
+      <div className="space-y-2">
+        <div className="flex items-center space-x-2 text-white/80">
+          <GlobeIcon className="h-5 w-5 text-white" />
+          <label htmlFor="country">Country</label>
+        </div>
+        <Select
+          className="text-black"
+          value={selectedCountry}
+          onChange={handleSelectedCountry}
+          options={options}
+        />
       </div>
-    <div>
-      <Select 
-      className="text-black font-medium"
-      value={selectedCountry}
-      onChange={handleSelectedCountry}
-      options={options} />
-  </div>
 
 
   {selectedCountry && (
