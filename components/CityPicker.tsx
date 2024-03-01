@@ -39,7 +39,6 @@ const options = Country.getAllCountries().map(country => ({
 function CityPicker() {
     const [selectedCountry, setSelectedCountry] = useState<option>(null);
     const [selectedCity, setSelectedCity] = useState<cityOption>(null);
-
     const router = useRouter();
 
     const handleSelectedCountry = (option: option) => {
