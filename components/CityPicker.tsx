@@ -46,13 +46,11 @@ function CityPicker() {
       setSelectedCity(null);
     };
 
+
     const handleSelectedCity = (option: cityOption) => {
-      setSelectedCity(option);
-      router.push(
-        `/location/${option?.value.name}/${option?.value.latitude}/${option?.value.longitude}`
-      )
-    
-    }
+      `/location/${option?.value.name}/${option?.value.latitude}/${option?.value.longitude}`
+    );
+  };
 
   return (
     <div className="space-y-4">
