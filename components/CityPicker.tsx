@@ -81,10 +81,22 @@ function CityPicker() {
       className="text-black font-medium"
       value={selectedCity}
       onChange={handleSelectedCity}
-      options={options} />
+      options={City.getCitiesOfCountry(
+        selectedCountry.value.isoCode
+      )?.map((state) => ({
+        value: {
+          latitude: state.latitude!,
+          longitude: state.longitude!,
+          countryCode: state.countryCode,
+          name: state.name,
+          stateCode: state.stateCode,
+        },
+        label: state.name,
+      }))}
+    />
   </div>  
   </div>
-  </div>
+</div>
 </div>
   );
 }
