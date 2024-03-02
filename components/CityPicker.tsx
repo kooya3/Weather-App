@@ -52,7 +52,6 @@ function CityPicker() {
       router.push(
         `/location/${option?.value.name}/${option?.value.latitude}/${option?.value.longitude}`
       )
-    
     }
 
   return (
