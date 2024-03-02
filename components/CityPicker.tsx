@@ -69,5 +69,24 @@ function CityPicker() {
       options={options} />
   </div>
 
-  
+
+  {selectedCountry && (
+  <div className="space-y-2">
+    <div className="flex items-center space-x-2 text-white/80">
+        <GlobeIcon className="h-5 w-5 text-white font-semibold " />
+        <label htmlFor="country">City</label>
+      </div>
+    <div>
+      <Select 
+      className="text-black font-medium"
+      value={selectedCity}
+      onChange={handleSelectedCity}
+      options={options} />
+  </div>  
+  </div>
+  </div>
+</div>
+  );
+}
+
 export default CityPicker;
