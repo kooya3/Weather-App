@@ -96,6 +96,7 @@ function CityPicker() {
     />
   </div>  
   </div>
+   )}
 </div>
 </div>
   );
