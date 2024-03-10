@@ -6,4 +6,4 @@ function CalloutCard() {
   )
 }
 
-export default CalloutCard
+export default CalloutCard;
