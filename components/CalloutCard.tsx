@@ -9,7 +9,6 @@ function CalloutCard({ message, warning }: Props) {
     <Callout
     className="mt-4"
     title={message}
-
     icon={warning ? ExclamationIcon :
     />
   );
