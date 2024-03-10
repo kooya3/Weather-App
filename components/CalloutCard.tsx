@@ -6,7 +6,9 @@ import { Callout } from "@tremor/react";
 
 function CalloutCard({ message, warning }: Props) {
   return (
-    <Callout />
+    <Callout
+    className="mt-4"
+    />
   );
 }
 
