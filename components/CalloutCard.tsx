@@ -8,6 +8,7 @@ function CalloutCard({ message, warning }: Props) {
   return (
     <Callout
     className="mt-4"
+    title={message}
     />
   );
 }
