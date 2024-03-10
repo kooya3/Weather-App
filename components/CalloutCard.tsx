@@ -10,7 +10,7 @@ function CalloutCard({ message, warning }: Props) {
     className="mt-4"
     title={message}
     icon={warning ? ExclamationIcon : CheckCircleIcon}
-    
+    color={warning ? "rose" : "teal"}
     />
   );
 }
