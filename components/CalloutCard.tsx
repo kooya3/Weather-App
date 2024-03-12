@@ -3,7 +3,7 @@
 import { CheckCircleIcon, ExclamationIcon } from "@heroicons/react/solid";
 import { Callout } from "@tremor/react";
 
-type Props = {}
+type Props = {};
 
 
 function CalloutCard({ message, warning }: Props) {
