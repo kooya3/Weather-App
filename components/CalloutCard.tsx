@@ -6,7 +6,6 @@ import { Callout } from "@tremor/react";
 type Props = {
   message: string;
   warning?: boolean;
-
 };
 
 
