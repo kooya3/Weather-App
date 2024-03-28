@@ -1,9 +1,5 @@
-import React from 'react'
-
-function page() {
-  return (
-    <div>page</div>
-  )
+function Weatherpage() {
+  return <div>Welcome to the weather page</div>;
 }
 
-export default page
+export default Weatherpage
