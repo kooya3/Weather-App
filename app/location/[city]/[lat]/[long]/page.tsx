@@ -1,5 +1,8 @@
 type Props = {
-  
+  params: {
+    city: string;
+    
+  }
 }
 
 function Weatherpage() {
