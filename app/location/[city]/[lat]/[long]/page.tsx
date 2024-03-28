@@ -1,7 +1,7 @@
 type Props = {
   params: {
     city: string;
-    
+    lat: string;
   }
 }
 
