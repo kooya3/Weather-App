@@ -1,3 +1,7 @@
+type Props = {
+  
+}
+
 function Weatherpage() {
   return <div>Welcome to the weather page</div>;
 }
