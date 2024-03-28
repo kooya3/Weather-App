@@ -6,7 +6,7 @@ type Props = {
   }
 }
 
-function Weatherpage() {
+function Weatherpage({params: {}}) {
   return <div>Welcome to the weather page</div>;
 }
 
