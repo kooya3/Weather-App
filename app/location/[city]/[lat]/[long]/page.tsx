@@ -2,6 +2,7 @@ type Props = {
   params: {
     city: string;
     lat: string;
+    long: string;
   }
 }
 
