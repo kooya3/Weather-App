@@ -16,6 +16,8 @@ const fetchWeatherQuery = gql`
       latitude: $latitude
       longitude: $longitudetimezone: $timezone
     ) {
+      latitude
+      longitude
       
    
 `
