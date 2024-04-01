@@ -49,6 +49,9 @@ interface Hourly {
   windgusts_10m: [number];
 }
 
+interface HourlyUnits {
+
+
 
 
 
