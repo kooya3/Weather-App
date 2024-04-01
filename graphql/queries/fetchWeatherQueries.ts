@@ -45,6 +45,9 @@ const fetchWeatherQuery = gql`
         uv_index_clear_sky
         windgusts_10m
       }
+      hourly_units {
+        apparent_temperature
+        precipitation_probability
       
       
    
