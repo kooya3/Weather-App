@@ -30,6 +30,9 @@ const fetchWeatherQuery = gql`
         winddirection
         windspeed
       }
+      hourly {
+        apparent_temperature
+       
       
    
 `
