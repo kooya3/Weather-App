@@ -21,6 +21,8 @@ interface CurrentWeather {
 }
 
 interface DailyUnits {
+  apparent_temperature_max: string;
+  apparent_temperature_min: string;
 
 
     
