@@ -72,7 +72,9 @@ const fetchWeatherQuery = gql`
         weathercode
       }
       daily_units {
-       
+        apparent_temperature_max
+        apparent_temperature_min
+      
      
     
       
