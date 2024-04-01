@@ -26,6 +26,9 @@ interface DailyUnits {
   sunrise: string;
   sunset: string;
   temperature_2m_max: string;
+  temperature_2m_min: string;
+  time: string;
+  uv_index_clear_sky_max: string;
 
 
 
