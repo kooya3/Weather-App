@@ -11,6 +11,7 @@ const fetchWeatherQuery = gql`
     ) {
     myQuery(
       current_weather: $current_weather
-      daily:
+      daily: $daily
+      hourly:
    
 `
