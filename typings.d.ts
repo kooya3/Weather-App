@@ -56,6 +56,8 @@ interface HourlyUnits {
   rain: string;
   relativehumidity_2m: string;
   showers: string;
+  snow_depth: string;
+  snowfall: string;
 
 
 
