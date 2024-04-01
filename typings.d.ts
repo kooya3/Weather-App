@@ -60,6 +60,8 @@ interface HourlyUnits {
   snowfall: string;
   temperature_2m: string;
   time: string;
+  uv_index: string;
+  uv_index_clear_sky: string;
 
 
 
