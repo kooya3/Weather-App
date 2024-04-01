@@ -11,7 +11,7 @@ type Props = {
 function Weatherpage({params: {city, lat, long}}: Props) {
   const client = getClient();
 
-  
+  const { data }
   return <div>Welcome to the weather page: {city} {lat} {long}</div>;
 }
 
