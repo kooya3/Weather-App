@@ -32,7 +32,9 @@ const fetchWeatherQuery = gql`
       }
       hourly {
         apparent_temperature
-       
+        precipitation_probability
+        precipitation
+      
       
    
 `
