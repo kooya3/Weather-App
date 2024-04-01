@@ -34,6 +34,9 @@ const fetchWeatherQuery = gql`
         apparent_temperature
         precipitation_probability
         precipitation
+        rain
+        relativehumidity_2m
+        showers
       
       
    
