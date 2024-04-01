@@ -20,4 +20,7 @@ interface CurrentWeather {
   weathercode: [number];
 }
 
+interface DailyUnits {
+
+
     
