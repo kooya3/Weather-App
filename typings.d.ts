@@ -44,6 +44,9 @@ interface Hourly {
   snowfall: [number];
   temperature_2m: [number];
   time: [string];
+  uv_index: [number];
+  uv_index_clear_sky: [number];
+
 
 
 
