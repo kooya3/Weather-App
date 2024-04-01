@@ -76,6 +76,10 @@ const fetchWeatherQuery = gql`
         apparent_temperature_min
         sunset
         sunrise
+        temperature_2m_max
+        temperature_2m_min
+        uv_index_clear_sky_max
+      
       
      
     
