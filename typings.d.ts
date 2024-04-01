@@ -62,6 +62,8 @@ interface HourlyUnits {
   time: string;
   uv_index: string;
   uv_index_clear_sky: string;
+  windgusts_10m: string;
+}
 
 
 
