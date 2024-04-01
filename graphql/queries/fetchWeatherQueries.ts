@@ -20,6 +20,8 @@ const fetchWeatherQuery = gql`
       longitude
       timezone
       timezone_abbreviation
+      utc_offset_seconds
+      elevation
       
    
 `
