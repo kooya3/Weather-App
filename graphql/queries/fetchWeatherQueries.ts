@@ -71,6 +71,8 @@ const fetchWeatherQuery = gql`
         uv_index_max
         weathercode
       }
+      daily_units {
+       
      
     
       
