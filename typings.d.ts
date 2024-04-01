@@ -23,6 +23,10 @@ interface CurrentWeather {
 interface DailyUnits {
   apparent_temperature_max: string;
   apparent_temperature_min: string;
+  sunrise: string;
+  sunset: string;
+  temperature_2m_max: string;
+
 
 
     
