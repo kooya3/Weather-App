@@ -58,6 +58,8 @@ interface HourlyUnits {
   showers: string;
   snow_depth: string;
   snowfall: string;
+  temperature_2m: string;
+  time: string;
 
 
 
