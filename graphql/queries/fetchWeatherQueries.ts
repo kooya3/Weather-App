@@ -22,6 +22,8 @@ const fetchWeatherQuery = gql`
       timezone_abbreviation
       utc_offset_seconds
       elevation
+      generationtime_ms
+      current_weather {
       
    
 `
