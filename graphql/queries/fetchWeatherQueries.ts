@@ -37,6 +37,9 @@ const fetchWeatherQuery = gql`
         rain
         relativehumidity_2m
         showers
+        snow_depth
+        snowfall
+        temperature_2m
       
       
    
