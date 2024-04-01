@@ -24,6 +24,8 @@ const fetchWeatherQuery = gql`
       elevation
       generationtime_ms
       current_weather {
+        temperature
+        time
       
    
 `
