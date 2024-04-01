@@ -6,5 +6,8 @@ export const getClient = () => {
     const client = new ApolloClient({
         uri: process.env.API_URL,
         cache: new InMemoryCache(),
+        headers: {
+            
+        }
 })
 }
