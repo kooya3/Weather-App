@@ -42,6 +42,8 @@ interface Hourly {
   showers: [number];
   snow_depth: [number];
   snowfall: [number];
+  temperature_2m: [number];
+  time: [string];
 
 
 
