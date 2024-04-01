@@ -15,5 +15,9 @@ interface CurrentWeather {
   temperature_2m_max: [number];
   temperature_2m_min: [number];
   time: [string];
+  uv_index_clear_sky_max: [number];
+  uv_index_max: [number];
+  weathercode: [number];
+}
 
     
