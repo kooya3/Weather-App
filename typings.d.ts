@@ -38,6 +38,8 @@ interface Hourly {
   precipitation: [number];
   precipitation_probability: [number];
   rain: [number];
+  relativehumidity_2m: [number];
+  showers: [number];
 
 
 
