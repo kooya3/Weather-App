@@ -40,6 +40,8 @@ interface Hourly {
   rain: [number];
   relativehumidity_2m: [number];
   showers: [number];
+  snow_depth: [number];
+  snowfall: [number];
 
 
 
