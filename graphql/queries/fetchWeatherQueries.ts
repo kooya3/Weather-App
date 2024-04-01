@@ -56,7 +56,10 @@ const fetchWeatherQuery = gql`
         snowfall
         temperature_2m
         time
-        uv_index
+        uv_index  uv_index_clear_sky
+        windgusts_10m
+      }
+
       
       
    
