@@ -1,3 +1,5 @@
+import { getClient } from "@apollo/client";
+
 type Props = {
   params: {
     city: string;
