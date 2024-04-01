@@ -54,6 +54,8 @@ interface HourlyUnits {
   precipitation: string;
   precipitation_probability: string;
   rain: string;
+  relativehumidity_2m: string;
+  showers: string;
 
 
 
