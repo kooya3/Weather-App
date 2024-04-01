@@ -65,6 +65,7 @@ interface HourlyUnits {
   windgusts_10m: string;
 }
 
+interface Root {
 
 
 
