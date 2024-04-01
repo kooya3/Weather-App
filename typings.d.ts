@@ -36,6 +36,8 @@ interface DailyUnits {
 interface Hourly {
   apparent_temperature: [number];
   precipitation: [number];
+  precipitation_probability: [number];
+  rain: [number];
 
 
 
