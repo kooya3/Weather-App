@@ -26,6 +26,10 @@ const fetchWeatherQuery = gql`
       current_weather {
         temperature
         time
+        weathercode
+        winddirection
+        windspeed
+      }
       
    
 `
