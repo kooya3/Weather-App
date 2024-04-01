@@ -50,6 +50,8 @@ interface Hourly {
 }
 
 interface HourlyUnits {
+  apparent_temperature: string;
+  precipitation: string;
 
 
 
