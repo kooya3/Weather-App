@@ -70,6 +70,8 @@ interface Root {
   daily: Daily;
   daily_units: DailyUnits;
   elevation: number;
+  generationtime_ms: number;
+  hourly: Hourly;
 
 
 
