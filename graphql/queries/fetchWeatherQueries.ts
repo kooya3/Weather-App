@@ -48,6 +48,9 @@ const fetchWeatherQuery = gql`
       hourly_units {
         apparent_temperature
         precipitation_probability
+        precipitation
+        rain
+        showers
       
       
    
