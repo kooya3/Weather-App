@@ -74,6 +74,8 @@ const fetchWeatherQuery = gql`
       daily_units {
         apparent_temperature_max
         apparent_temperature_min
+        sunset
+        sunrise
       
      
     
