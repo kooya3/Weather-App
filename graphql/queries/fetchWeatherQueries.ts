@@ -10,5 +10,7 @@ const fetchWeatherQuery = gql`
     $timezone: String!
     ) {
     myQuery(
+      current_weather: $current_weather
+      daily:
    
 `
