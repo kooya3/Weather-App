@@ -29,6 +29,10 @@ interface DailyUnits {
   temperature_2m_min: string;
   time: string;
   uv_index_clear_sky_max: string;
+  uv_index_max: string;
+  weathercode: string;
+}
+
 
 
 
