@@ -79,6 +79,13 @@ const fetchWeatherQuery = gql`
         temperature_2m_max
         temperature_2m_min
         uv_index_clear_sky_max
+        time
+        uv_index_max
+        weathercode
+      }
+    }
+  }
+`;
       
       
      
