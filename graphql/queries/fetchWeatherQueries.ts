@@ -59,7 +59,10 @@ const fetchWeatherQuery = gql`
         uv_index  uv_index_clear_sky
         windgusts_10m
       }
-
+      daily {
+        apparent_temperature_max
+        apparent_temperature_min
+       
       
       
    
