@@ -66,6 +66,8 @@ interface HourlyUnits {
 }
 
 interface Root {
+  current_weather: CurrentWeather;
+  daily: Daily;
 
 
 
