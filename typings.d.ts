@@ -72,6 +72,9 @@ interface Root {
   elevation: number;
   generationtime_ms: number;
   hourly: Hourly;
+  hourly_units: HourlyUnits;
+  latitude: number;
+  longitude: number;
 
 
 
