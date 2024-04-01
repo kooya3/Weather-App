@@ -33,6 +33,8 @@ interface DailyUnits {
   weathercode: string;
 }
 
+interface Hourly {
+
 
 
 
