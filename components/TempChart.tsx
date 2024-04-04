@@ -8,9 +8,5 @@ type Props = {
 
 
 function TempChart() {
-  return (
-   
-  )
-}
 
 export default TempChart
