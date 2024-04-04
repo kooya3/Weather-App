@@ -9,7 +9,7 @@ type Props = {
 
 function TempChart() {
   return (
-    <div>
+   
   )
 }
 
