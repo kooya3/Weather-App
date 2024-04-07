@@ -2,7 +2,5 @@
 
 import { Card, AreaChart, Title } from "@tremor/react";
 
-type Props = {
-
 
 export default TempChart
