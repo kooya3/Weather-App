@@ -7,6 +7,5 @@ type Props = {
 };
 
 
-function TempChart() {
 
 export default TempChart
