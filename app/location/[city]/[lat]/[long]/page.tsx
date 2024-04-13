@@ -21,6 +21,9 @@ function Weatherpage({params: {city, lat, long}}: Props) {
       timezone: "GMT",
     }
   })
+
+  const results: Root
+
   return <div>Welcome to the weather page: {city} {lat} {long}</div>;
 }
 
