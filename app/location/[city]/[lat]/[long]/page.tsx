@@ -22,7 +22,7 @@ function Weatherpage({params: {city, lat, long}}: Props) {
     }
   })
 
-  const results: Root
+  const results: Root = data.myQuery;
 
   return <div>Welcome to the weather page: {city} {lat} {long}</div>;
 }
