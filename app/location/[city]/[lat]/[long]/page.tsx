@@ -17,6 +17,7 @@ function Weatherpage({params: {city, lat, long}}: Props) {
     variables: {
       current_weather: "true",
       longitude: long,
+      latitude: lat,
     }
   })
   return <div>Welcome to the weather page: {city} {lat} {long}</div>;
