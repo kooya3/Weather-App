@@ -18,6 +18,7 @@ function Weatherpage({params: {city, lat, long}}: Props) {
       current_weather: "true",
       longitude: long,
       latitude: lat,
+      timezone: "GMT",
     }
   })
   return <div>Welcome to the weather page: {city} {lat} {long}</div>;
