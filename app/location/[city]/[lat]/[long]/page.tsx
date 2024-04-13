@@ -11,7 +11,9 @@ type Props = {
 function Weatherpage({params: {city, lat, long}}: Props) {
   const client = getClient();
 
-  const { data } = await client.query({})
+  const { data } = await client.query({
+    query: fetchWeatherQuery,
+  })
   return <div>Welcome to the weather page: {city} {lat} {long}</div>;
 }
 
