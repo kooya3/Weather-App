@@ -1,6 +1,8 @@
 import fetchWeatherQuery from "@/graphql/queries/fetchWeatherQueries";
 import { getClient } from "@apollo/client";
 
+export 
+
 type Props = {
   params: {
     city: string;
