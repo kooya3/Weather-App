@@ -27,8 +27,8 @@ function Weatherpage({params: {city, lat, long}}: Props) {
 
   const results: Root = data.myQuery;
 
-  const 
-  
+  const dataToSend 
+
   return <div>Welcome to the weather page: {city} {lat} {long}</div>;
 }
 
