@@ -22,3 +22,6 @@ type Props = {
         "Temperature (C)": results.hourly.temperature_2m[i],
     }));
     
+
+    const dataFormatter = (number: number) => `${number}`;
+  
