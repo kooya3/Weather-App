@@ -37,3 +37,7 @@ type Props = {
             colors={["yellow", "rose"]}
             minValue={0}
             valueFormatter={dataFormatter}
+            yAxisWidth={40}
+          />
+        </Card>
+    
