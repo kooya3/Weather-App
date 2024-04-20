@@ -1,4 +1,6 @@
+import CalloutCard from "@/components/CalloutCard";
 import InformationPanel from "@/components/InformationPanel";
+import StatCard from "@/components/StatCard";
 import fetchWeatherQuery from "@/graphql/queries/fetchWeatherQueries";
 import { getClient } from "@apollo/client";
 
@@ -79,7 +81,13 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
           </div>
 
 
-          <div className="grid grid-cols-1 
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 m-2">
+            <StatCard
+              title="Maximum Temperature"
+              metric={`${results.daily.temperature_2m_max[0].toFixed(1)}°`}
+              color="yellow"
+            />
+
 
       </div>
     </div>
