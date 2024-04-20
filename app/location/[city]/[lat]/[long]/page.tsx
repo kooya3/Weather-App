@@ -73,7 +73,10 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
           </p>
         </div>
         
-        <div>{/* CalloutCard */}</div>
+        
+        <div className="m-2 mb-10">
+          </div>
+
       </div>
     </div>
   </div>);
