@@ -12,7 +12,7 @@ type Props = {
   }
 }
 
-function Weatherpage({params: {city, lat, long}}: Props) {
+function Weatherpage({ params: { city, lat, long } }: Props) {
   const client = getClient();
 
   const { data } = await client.query({
@@ -22,8 +22,8 @@ function Weatherpage({params: {city, lat, long}}: Props) {
       longitude: long,
       latitude: lat,
       timezone: "GMT",
-    }
-  })
+    },
+  });
 
   const results: Root = data.myQuery;
 
