@@ -33,3 +33,4 @@ type Props = {
             data={data}
             showLegend
             index="time"
+            categories={["Temperature (C)", "UV Index"]}
