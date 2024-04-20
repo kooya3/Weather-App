@@ -38,6 +38,8 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
     },
     body: JSON.stringify({
       weatherData: dataToSend,
+    }),
+  });
 
   return (
   <div>
