@@ -24,4 +24,6 @@ type Props = {
     
 
     const dataFormatter = (number: number) => `${number}`;
-  
+
+    return (
+    
