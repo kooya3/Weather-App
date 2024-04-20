@@ -88,6 +88,9 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
               color="yellow"
             />
 
+            <StatCard
+
+            />
 
       </div>
     </div>
