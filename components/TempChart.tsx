@@ -16,4 +16,5 @@ type Props = {
       )
       .slice(0, 24);
 
-    
+      const data = hourly.map((hour, i) => ({
+        time: Number(hour),
