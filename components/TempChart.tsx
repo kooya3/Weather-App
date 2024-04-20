@@ -31,3 +31,5 @@ type Props = {
           <AreaChart
             className="mt-6"
             data={data}
+            showLegend
+            index="time"
