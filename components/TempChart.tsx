@@ -14,3 +14,6 @@ type Props = {
           hour12: false,
         })
       )
+      .slice(0, 24);
+
+    
