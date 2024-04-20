@@ -40,4 +40,8 @@ type Props = {
             yAxisWidth={40}
           />
         </Card>
+      );
+    }
+    
+    export default TempChart;
     
