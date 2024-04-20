@@ -34,9 +34,10 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
   {
     method: "POST",
     headers: {
-      "Content-Type": "application/json",
-    
-
+      "Content-Type": "application/json",    
+    },
+    body: JSON.stringify({
+      weatherData: dataToSend,
 
   return (
   <div>
