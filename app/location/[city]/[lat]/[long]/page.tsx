@@ -40,7 +40,7 @@ function Weatherpage({params: {city, lat, long}}: Props) {
           <h2 className="text-xl font-bold">Todays Overview</h2>
           <p className="text-sm text-gray-400">
             Last Updated at:{""}
-            {new Date(reults.current_weather.time).toLocaleString()} ({results.timezone})
+            {new Date(results.current_weather.time).toLocaleString()} ({results.timezone})
           </p>
         </div>
         
@@ -50,4 +50,4 @@ function Weatherpage({params: {city, lat, long}}: Props) {
   </div>);
 }
 
-export default Weatherpage
+export default Weatherpage;
