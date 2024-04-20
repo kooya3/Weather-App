@@ -30,7 +30,10 @@ function Weatherpage({params: {city, lat, long}}: Props) {
   const dataToSend = cleanData(results, city);
 
 
-  return <div>Welcome to the weather page: {city} {lat} {long}</div>;
+  return (
+  <div>
+    {/* <InformationPanel /> */}
+  </div>);
 }
 
 export default Weatherpage
