@@ -43,6 +43,8 @@ function Weatherpage({params: {city, lat, long}}: Props) {
             {new Date(reults.current_weather.time).toLocaleString()} ({results.timezone})
           </p>
         </div>
+        
+        <div>{/* CalloutCard*/}</div>
       </div>
     </div>
   </div>);
