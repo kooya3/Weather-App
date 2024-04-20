@@ -26,4 +26,6 @@ type Props = {
     const dataFormatter = (number: number) => `${number}`;
 
     return (
+        <Card>
+          <Title>Temperature & UV Index</Title>
     
