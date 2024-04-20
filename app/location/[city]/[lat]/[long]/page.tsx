@@ -1,3 +1,4 @@
+import InformationPanel from "@/components/InformationPanel";
 import fetchWeatherQuery from "@/graphql/queries/fetchWeatherQueries";
 import { getClient } from "@apollo/client";
 
@@ -48,10 +49,7 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
 
 
   return (
-  <div>
-    {/* <InformationPanel /> */}
-
-    <div>
+   <div>
       <div className="p-5">
         <div className="pb-5">
           <h2 className="text-xl font-bold">Todays Overview</h2>
