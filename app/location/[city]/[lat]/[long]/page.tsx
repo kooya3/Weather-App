@@ -41,6 +41,12 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
     }),
   });
 
+
+  const GPTdata = await res.json();
+  const { content } = GPTdata;
+
+
+
   return (
   <div>
     {/* <InformationPanel /> */}
