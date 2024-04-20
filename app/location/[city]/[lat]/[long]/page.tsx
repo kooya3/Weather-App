@@ -39,7 +39,7 @@ function Weatherpage({params: {city, lat, long}}: Props) {
         <div className="pb-5">
           <h2 className="text-xl font-bold">Todays Overview</h2>
           <p className="text-sm text-gray-400">
-            Last Updated
+            Last Updated at:{""}
           </p>
         </div>
       </div>
