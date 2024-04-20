@@ -36,3 +36,4 @@ type Props = {
             categories={["Temperature (C)", "UV Index"]}
             colors={["yellow", "rose"]}
             minValue={0}
+            valueFormatter={dataFormatter}
