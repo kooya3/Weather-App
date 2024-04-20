@@ -79,7 +79,7 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
           </div>
 
 
-          <div className="grid 
+          <div className="grid grid-cols-1 
 
       </div>
     </div>
