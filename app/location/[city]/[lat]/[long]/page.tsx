@@ -33,6 +33,12 @@ function Weatherpage({params: {city, lat, long}}: Props) {
   return (
   <div>
     {/* <InformationPanel /> */}
+
+    <div>
+      <div className="p-5">
+        <div className="pb-5"></div>
+      </div>
+    </div>
   </div>);
 }
 
