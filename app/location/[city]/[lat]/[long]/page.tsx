@@ -33,6 +33,9 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
   const res = await fetch(`${getBasePath()}/api/getWeatherSummary`, 
   {
     method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    
 
 
   return (
