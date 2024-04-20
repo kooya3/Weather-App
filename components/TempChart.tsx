@@ -34,3 +34,5 @@ type Props = {
             showLegend
             index="time"
             categories={["Temperature (C)", "UV Index"]}
+            colors={["yellow", "rose"]}
+            minValue={0}
