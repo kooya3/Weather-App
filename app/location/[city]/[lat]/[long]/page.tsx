@@ -75,6 +75,7 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
         
         
         <div className="m-2 mb-10">
+            <CalloutCard message={content} />
           </div>
 
       </div>
