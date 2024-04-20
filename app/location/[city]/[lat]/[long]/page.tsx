@@ -50,6 +50,13 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
 
   return (
    <div>
+    <div className="flex flex-col min-h-screen md:flex-row">
+      <InformationPanel city={city} long={long} lat={lat} results={results} />
+
+      <div className="flex-1 p-5 lg:p-10">
+
+          </div>
+
       <div className="p-5">
         <div className="pb-5">
           <h2 className="text-xl font-bold">Todays Overview</h2>
