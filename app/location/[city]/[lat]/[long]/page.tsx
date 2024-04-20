@@ -54,7 +54,9 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
       <InformationPanel city={city} long={long} lat={lat} results={results} />
 
       <div className="flex-1 p-5 lg:p-10">
-
+      <div className="p-5">
+          
+            </p>
           </div>
 
       <div className="p-5">
