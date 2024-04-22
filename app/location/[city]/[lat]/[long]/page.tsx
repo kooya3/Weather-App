@@ -96,7 +96,7 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
 
             <div>
               <StatCard
-
+                title=
 
       </div>
     </div>
