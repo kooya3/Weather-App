@@ -98,7 +98,9 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
               <StatCard
                 title="UV Index"
                 metric={results.daily.uv_index_max[0].toFixed(1)}
-                color=
+                color="rose"
+              />
+
 
       </div>
     </div>
