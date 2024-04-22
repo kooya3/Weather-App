@@ -106,6 +106,7 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
                   warning
                 />
               )}
+            </div>
 
       </div>
     </div>
