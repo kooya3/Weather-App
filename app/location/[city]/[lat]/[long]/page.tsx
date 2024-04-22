@@ -100,7 +100,7 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
                 metric={results.daily.uv_index_max[0].toFixed(1)}
                 color="rose"
               />
-              {Number(results.daily.uv_index_max[0].toFixed(1)) > 
+              {Number(results.daily.uv_index_max[0].toFixed(1)) > 5 && 
 
       </div>
     </div>
