@@ -13,7 +13,7 @@ type Props = {
   }
 }
 
-function Weatherpage({ params: { city, lat, long } }: Props) {
+ async function Weatherpage({ params: { city, lat, long } }: Props) {
   const client = getClient();
 
   const { data } = await client.query({
