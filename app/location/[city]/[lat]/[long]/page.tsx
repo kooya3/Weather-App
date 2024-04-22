@@ -97,7 +97,7 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
             <div>
               <StatCard
                 title="UV Index"
-                metric={results.
+                metric={results.daily.
 
       </div>
     </div>
