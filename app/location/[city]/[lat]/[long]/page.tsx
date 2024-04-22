@@ -102,7 +102,8 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
               />
               {Number(results.daily.uv_index_max[0].toFixed(1)) > 5 && (
                 <CalloutCard
-                  message=
+                  message={"The UV is high today, be sure to wear SPF!"}
+                
 
       </div>
     </div>
