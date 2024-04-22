@@ -1,5 +1,4 @@
 import CalloutCard from "@/components/CalloutCard";
-import InformationPanel from "@/components/InformationPanel";
 import fetchWeatherQuery from "@/graphql/queries/fetchWeatherQueries";
 import { getClient } from "@apollo/client";
 
@@ -33,6 +32,7 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
   return (
    <div>
   {/*  <InformationPanel />*/} 
+  
   <div>
       <div className="p-5">
       <div className="pb-5">
@@ -45,7 +45,7 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
           </div>
       
         <div className="m-2 mb-10">
-            <CalloutCard message="This is where GPT-4 Summary will go"} />
+            <CalloutCard message="This is where GPT-4 Summary will go" />
           </div>
 
       </div>
