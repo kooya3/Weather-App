@@ -1,6 +1,6 @@
+import {getClient} from "@apollo/client";
 import CalloutCard from "@/components/CalloutCard";
 import fetchWeatherQuery from "@/graphql/queries/fetchWeatherQueries";
-import { getClient } from "@apollo/client";
 
 export const revalidate = 60;
 
@@ -49,9 +49,9 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
           </div>
 
       </div>
+     </div>
     </div>
-    </div>
-  )
+  );
 }
 
 export default Weatherpage;
