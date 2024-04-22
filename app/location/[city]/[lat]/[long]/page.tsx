@@ -89,8 +89,13 @@ function Weatherpage({ params: { city, lat, long } }: Props) {
             />
 
             <StatCard
-
+              title="Minimum Temperature"
+              metric={`${results.daily.temperature_2m_min[0].toFixed(1)}°`}
+              color="green"
             />
+
+            <div>
+
 
       </div>
     </div>
