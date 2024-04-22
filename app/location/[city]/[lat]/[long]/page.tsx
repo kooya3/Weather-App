@@ -1,4 +1,4 @@
-import {getClient} from "@apollo/client";
+import { getClient } from "@/apollo-client";
 import CalloutCard from "@/components/CalloutCard";
 import fetchWeatherQuery from "@/graphql/queries/fetchWeatherQueries";
 
@@ -13,7 +13,7 @@ type Props = {
   }
 }
 
- async function Weatherpage({ params: { city, lat, long } }: Props) {
+async function Weatherpage({ params: { city, lat, long } }: Props) {
   const client = getClient();
 
   const { data } = await client.query({
