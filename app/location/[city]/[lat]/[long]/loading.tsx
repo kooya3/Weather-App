@@ -12,3 +12,10 @@ function Loading() {
         </h1>
         <h2 className="text-xl font-bold text-center mb-10 animate-pulse">
         Hold on, we are crunching the numbers & generating an AI summary of the
+        Weather!
+        </h2>
+      </div>
+    );
+  }
+  
+  export default Loading;
