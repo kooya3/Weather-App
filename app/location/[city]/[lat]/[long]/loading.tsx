@@ -7,6 +7,9 @@ function Loading() {
           className="h-24 w-24 animate-bounce text-yellow-500"
           color="yellow"
         />
-        <h1 className="text-6xl 
+        <h1 className="text-6xl font-bold text-center mb-10 animate-pulse">
+          Loading City Weather Information
+        </h1>
+ 
 
   
