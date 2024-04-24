@@ -7,8 +7,7 @@ type Props = {
   }
 }
 
-const results: 
-
+const results: Root = 
   function Weatherpage({ params: { city, lat, long } }: Props) {
   return (
    <div>
