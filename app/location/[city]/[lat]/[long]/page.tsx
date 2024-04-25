@@ -10,6 +10,9 @@ type Props = {
 }
 
 async function WeatherPage({ params: { city, lat, long } }: Props) {
+  const client = getClient();
+
+  
   
 
   function Weatherpage({ params: { city, lat, long } }: Props) {
