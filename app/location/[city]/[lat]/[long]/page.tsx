@@ -1,3 +1,5 @@
+import { getClient } from "@/apollo-client";
+import fetchWeatherQuery from "@/graphql/queries/fetchWeatherQueries";
 
 type Props = {
   params: {
@@ -7,7 +9,7 @@ type Props = {
   }
 }
 
-const results: Root = data.myQuery;
+
 
   function Weatherpage({ params: { city, lat, long } }: Props) {
   return (
