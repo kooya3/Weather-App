@@ -9,7 +9,8 @@ type Props = {
   }
 }
 
-
+async function WeatherPage({ params: { city, lat, long } }: Props) {
+  
 
   function Weatherpage({ params: { city, lat, long } }: Props) {
   return (
