@@ -6,8 +6,8 @@ type Props = {
     city: string;
     lat: string;
     long: string;
-  }
-}
+  };
+};
 
 async function WeatherPage({ params: { city, lat, long } }: Props) {
   const client = getClient();
@@ -20,11 +20,10 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
       latitude: lat,
       timezone: "GMT",
     },
-  });
+  })
   
-  
+  const 
 
-   
   return (
    <div>
     Welcome to the weather page: {city} {lat} {long} 
