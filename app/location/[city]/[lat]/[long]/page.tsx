@@ -24,7 +24,7 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
   
   
 
-    Props) {
+   
   return (
    <div>
     Welcome to the weather page: {city} {lat} {long} 
