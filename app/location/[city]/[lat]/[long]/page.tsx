@@ -22,7 +22,10 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
     },
   })
   
-  const results: Root = data.myQuery
+  const results: Root = data.myQuery;
+
+  console.log(results);
+
 
   return (
    <div>
