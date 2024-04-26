@@ -22,7 +22,7 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
     },
   })
   
-  const 
+  const results:
 
   return (
    <div>
