@@ -9,7 +9,8 @@ type Props = {
   };
 };
 
-async function WeatherPage({ params: { city, lat, long } }: Props) {
+async function WeatherPage({ params: { city, lat, long } }: 
+  Props) {
   const client = getClient();
   
   const { data } = await client.query({
@@ -26,13 +27,12 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
 
   console.log(results);
 
-
   return (
    <div>
-    Welcome to the weather page: {city} {lat} {long} 
+    Welcome to the weather update: {city} {lat} {long} 
    </div>    
     );
 }
 
 
-export default Weatherpage;
+export default WeatherPage
