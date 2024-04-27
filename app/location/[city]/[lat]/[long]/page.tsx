@@ -29,7 +29,7 @@ async function WeatherPage({ params: { city, lat, long } }:
 
   return (
    <div>
-     {city} {lat} {long} 
+     Weather{city} {lat} {long} 
    </div>    
     );
 }
