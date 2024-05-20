@@ -12,7 +12,7 @@ function Loading() {
         </h1>
         <h2 className="text-xl font-bold text-center mb-10 animate-pulse">
         Crunching the numbers & generating an AI summary of the
-        Weather! Almost
+        Weather! Almost there.
         </h2>
       </div>
     );
