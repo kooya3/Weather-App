@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-development server:
+ server:
 
 ```bash
 npm run dev
