@@ -1,4 +1,4 @@
- `](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+//github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
