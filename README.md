@@ -1,4 +1,4 @@
-canary/packages/create-next-app).
+packages/create-next-app).
 
 ## Getting Started
 
