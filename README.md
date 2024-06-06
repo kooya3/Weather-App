@@ -1,4 +1,4 @@
-packages/create-next-app).
+/create-next-app).
 
 ## Getting Started
 
