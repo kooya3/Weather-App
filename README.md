@@ -1,4 +1,4 @@
-//github.com/vercel/next.js/tree/canary/packages/create-next-app).
+/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
