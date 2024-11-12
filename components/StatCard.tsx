@@ -1,9 +1,20 @@
-import React from 'react'
+"use client";
 
-function StatCard() {
+import { Card, Metric, Text, Color } from "@tremor/react";
+
+type Props = {
+  title: string;
+  metric: string;
+  color?: Color;
+};
+
+function StatCard({ title, metric, color }: Props) {
   return (
-    <div>StatCard</div>
-  )
+    <Card decoration="top" decorationColor={color}>
+      <Text>{title}</Text>
+      <Metric>{metric}</Metric>
+    </Card>
+  );
 }
 
-export default StatCard
+export default StatCard;
